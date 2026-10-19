@@ -1,25 +1,54 @@
 # mba-sip-tableau-healthcare-analysis
-MBA SIP project analyzing healthcare service performance using Tableau.
-MBA SIP – Healthcare Service Performance Analysis Using Tableau
+MBA SIP Project– Medtoureasy Healthcare Services Performance Analysis Using Tableau
+******************************************
+
+# MBA SIP – MedTourEasy Healthcare Service Performance Analysis Using Tableau
 
 Project Overview
 
 This project was completed as part of my MBA Summer Internship Project (SIP).
 
-The project focuses on analyzing the performance of healthcare services using data visualization and business performance metrics. Tableau was used to transform the data into interactive dashboards and identify trends across different business dimensions.
+The project focuses on analyzing healthcare service performance using business performance metrics and data visualization. The analysis examines Sales, Profit, Profitability, and service-level performance across different healthcare categories, regions, cities, and services.
+
+Microsoft Excel was used for data preparation and analysis, while Tableau was used to develop interactive dashboards and visualize performance patterns.
+
+---
 
 Project Details
 
-- Project Type: MBA Summer Internship Project
-- Organization: MedTourEasy / Mdtresy Medical Travel Pvt. Ltd.
-- Project Period: June 2024
-- Analysis Period: 2020–2023
-- Visualization Tool: Tableau
-- Data Analysis: Business performance and service-level analysis
+Project Type: MBA Summer Internship Project
+Organization: MedTourEasy / Mdtresy Medical Travel Pvt. Ltd.
+Project Period: June 2024
+Analysis Period: 2021–2024
+Visualization Tool: Tableau
+Data Analysis: Healthcare service performance and profitability analysis
+
+---
+
+Research Problem
+
+Healthcare service organizations operate across multiple service categories, geographical markets, and operational segments. Understanding differences in Sales, Profit, and Profitability can help identify stronger-performing areas and areas requiring further investigation.
+
+This project analyzes healthcare service data to examine performance patterns across categories, regions, cities, and individual services.
+
+---
 
 Project Objective
 
-The objective of this project was to study and analyze service performance using data visualization techniques and identify meaningful patterns in sales, profit, and other performance indicators.
+The objective of this project was to study and analyze healthcare service performance using quantitative analysis and data visualization techniques, identify meaningful performance patterns, and present the findings through interactive Tableau dashboards.
+
+Specific Objectives
+
+- Analyze Sales and Profit trends from 2021 to 2024.
+- Compare performance across healthcare categories.
+- Analyze regional and city-level performance.
+- Identify high-performing and under-performing healthcare services.
+- Compare Sales, Profit, and Profit Margin.
+- Examine the relationship between Discount and Profitability.
+- Analyze operational factors such as Length of Stay and Room Category.
+- Present findings through interactive Tableau dashboards.
+
+---
 
 Key Performance Indicators
 
@@ -27,60 +56,225 @@ The analysis focuses on:
 
 - Sales
 - Profit
-- YTS
-- Service performance
+- Profit Margin
+- Length of Stay
+- Sales per Stay Day
+- Profit per Stay Day
+- Service Performance
+
+---
 
 Analysis Dimensions
 
-The dashboard allows performance to be explored across:
+The analysis explores performance across:
 
 - Category
-- Subcategory
-- Segment
+- Subcategory / Service
 - Region
-- Disease
+- City
+- Segment
+- Room Category
+- Length of Stay
+- Discount
+- Year
 
-The disease-level analysis includes areas such as:
+Healthcare Categories
+
+The dataset includes:
 
 - Cardiology
 - Neurology
 - Orthopedics
 
+---
+
+Research Questions
+
+The analysis was designed around questions such as:
+
+1. How did Sales and Profit change from 2021 to 2024?
+2. Which healthcare category performs strongest financially?
+3. Which regions and cities contribute most to performance?
+4. Which services are high-performing or under-performing?
+5. Does higher Discount tend to be associated with lower Profitability?
+6. How does Length of Stay vary across healthcare services?
+7. Does performance differ across Room Categories?
+
+The analysis identifies relationships and observable patterns in the data; it does not claim causal relationships.
+
+---
+
 Dashboard
 
-An executive dashboard was developed in Tableau to provide a consolidated view of business performance and enable interactive analysis through filters.
+An interactive Tableau dashboard was developed to provide a consolidated view of healthcare service performance and enable analysis through different business dimensions.
+
+Dashboard Structure
+
+1. Executive Performance & Trends
+
+Provides an overall view of:
+
+- Total Sales
+- Total Profit
+- Profit Margin
+- Year-wise Sales
+- Year-wise Profit
+- Category contribution
+
+2. Category Performance
+
+Compares:
+
+- Cardiology
+- Neurology
+- Orthopedics
+
+using Sales, Profit, Profit Margin, and year-wise performance.
+
+3. Regional & City Performance
+
+Analyzes:
+
+- Regional Sales
+- Regional Profit
+- Regional Profit Margin
+- Top-performing cities
+- Geographic performance differences
+
+4. Service Profitability & Performance Drivers
+
+Analyzes:
+
+- Service Sales
+- Service Profit
+- Profit Margin
+- High-performing services
+- Under-performing services
+- Discount and Profitability
+- Length of Stay
+- Room Category
+
+---
 
 Dashboard Preview
 
-Dashboard screenshot will be added here.
+Dashboard screenshots are included in the repository.
+
+---
 
 Key Findings
 
-The analysis was used to identify differences in performance across years, service categories, regions, segments, and disease areas.
-sed on the analysis of healthcare service performance from 2020–2023, the dashboard highlighted the following trends:
-Overall sales growth: Sales increased from 484,247 in 2020 to 733,215 in 2023, representing approximately 51.4% growth over the analysis period.
-Strongest sales year: 2023 recorded the highest sales of 733,215, approximately 20.4% higher than 2022.
-Profit growth: Profit increased from 49,544 in 2020 to 93,439 in 2023, representing approximately 88.6% growth.
-Improved profitability: The profit-to-sales ratio increased from approximately 10.2% in 2020 to 12.7% in 2023, indicating stronger overall profitability compared with the beginning of the period.
-Temporary sales decline: Sales decreased by approximately 2.8% in 2021 compared with 2020, followed by a strong recovery in 2022 and continued growth in 2023.
-These insights were identified through interactive Tableau visualizations and KPI-based analysis across different business dimensions.
+Based on the analysis of healthcare service performance from 2021–2024, the dashboards highlight several performance patterns.
 
+Overall Performance
 
-Selected findings and observations are documented separately in the "Insights" folder.
+Sales and Profit show an overall upward trend across the analysis period, with the final year recording the strongest overall performance.
+
+Category Performance
+
+Among the three healthcare categories, Neurology records the highest overall Sales and Profit, followed by Orthopedics, while Cardiology contributes comparatively lower Profit.
+
+Regional Performance
+
+Financial performance varies across regions, indicating that geographic segmentation is useful for understanding differences in Sales and Profitability.
+
+City-level Performance
+
+The analysis identifies stronger-performing cities within individual regions, showing that regional performance can vary considerably at the city level.
+
+Service Performance
+
+Service-level analysis shows that higher Sales do not necessarily translate into higher Profitability. Some services contribute strongly to Sales while generating comparatively lower Profit.
+
+Discount and Profitability
+
+The analysis indicates an observable relationship between Discount and Profitability in the available data. This relationship can be used to identify areas for further investigation rather than being interpreted as a causal effect.
+
+Operational Performance
+
+Length of Stay and Room Category provide additional dimensions for comparing healthcare service performance and understanding operational differences.
+
+---
 
 Tools & Skills
 
+Tools
+
 - Tableau
-- Data Visualization
-- Business Analysis
-- KPI Analysis
-- Dashboard Development
 - Microsoft Excel
+
+Data Analysis
+
+- Data Cleaning
+- Data Preparation
+- KPI Analysis
+- Sales & Profit Analysis
+- Profitability Analysis
+- Trend Analysis
+- Category Analysis
+- Regional Analysis
+- City-level Analysis
+- Service-level Analysis
+- Segmentation
+- Performance Ranking
+- Correlation Analysis
+
+Data Visualization
+
+- Tableau Dashboard Development
+- Interactive Visualizations
+- KPI Dashboards
+- Trend Analysis
+- Comparative Analysis
+- Geographic Analysis
+
+Research & Business Analysis
+
+- Descriptive Research
+- Analytical Research
+- Secondary Data Analysis
+- Research Question Formulation
+- Quantitative Interpretation
+- Business Insight Development
+
+---
 
 Project Outcome
 
-This project provided practical exposure to working with business data, analyzing performance indicators, and presenting insights through an interactive data visualization dashboard.
+This project provided practical exposure to working with healthcare service data, preparing and analyzing business performance metrics, identifying performance patterns, and presenting insights through interactive data visualization.
+
+The project follows an analytical workflow:
+
+Data Preparation → KPI Analysis → Performance Analysis → Segmentation → Visualization → Business Insights
+
+---
+
+Project Structure
+
+MBA-SIP-Tableau-Healthcare-Analysis/
+│
+├── README.md
+│
+├── Data/
+│
+├── Dashboard/
+│
+├── Insights/
+│
+└── Analysis/
+
+---
+
+Academic Context
+
+This project was completed as part of my MBA Summer Internship Project (SIP) and demonstrates the application of business analytics and data visualization techniques to a healthcare service context.
+
+The project combines secondary data analysis, quantitative performance analysis, and Tableau visualization to understand healthcare service performance across multiple business dimensions.
+
+---
 
 Disclaimer
 
-This repository contains academic/project work completed as part of my MBA SIP. Any company or dataset information included here is presented only for educational and portfolio purposes. Confidential or restricted information should not be uploaded.
+This repository contains academic/project work completed as part of my MBA SIP.
+
+Any company or dataset information included here is presented for educational and portfolio purposes. Confidential, proprietary, or restricted information should not be uploaded or disclosed.
