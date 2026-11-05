@@ -17,6 +17,7 @@ Microsoft Excel was used for data preparation and analysis, while Tableau was us
 Project Details
 
 Project Type: MBA Summer Internship Project
+
 Organization: MedTourEasy / Mdtresy Medical Travel Pvt. Ltd.
 Project Period: June 2024
 Analysis Period: 2021–2024
